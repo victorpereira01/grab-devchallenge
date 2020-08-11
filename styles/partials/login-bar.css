@@ -30,6 +30,11 @@
     color: var(--color-text);
 }
 
+#login-bar .input-icon-container h1 {
+    font: 400 0.8rem Archivo;
+    color: var(--color-text);
+}
+
 #login-bar .input-icon-container input,
 #login-bar button {
     width: 25%;
@@ -49,6 +54,14 @@
 
 #login-bar .input-icon-container input {
     padding: 0 0.6rem 0 2.0rem;
+
+    transition: 0.3s;
+}
+
+#login-bar .input-icon-container input:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px #719ECE;
+    border-color: var(--color-text);
 }
 
 
@@ -57,13 +70,16 @@
     background-color: white;
     color: #3b3b3b;
     cursor: pointer;
+
+    transition: 0.3s;
 }
 
 #login-bar button:hover {
     background-color: var(--color-text);
 }
 
-#login-bar a,#login-bar p {
+#login-bar a,
+#login-bar p {
     font: 400 0.8rem Archivo;
     color: var(--color-text);
     text-decoration: none;
