@@ -1,0 +1,12 @@
+#side-image {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#side-image img {
+    width: 90%;
+}

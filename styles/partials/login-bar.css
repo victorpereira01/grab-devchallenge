@@ -1,0 +1,74 @@
+#login-bar {
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-background-primary);
+}
+
+#login-bar img {
+    width: 30%;
+    margin-bottom: 70px;
+    padding-top: 60px;
+}
+
+#login-bar .input-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 200%;
+    position: relative;
+}
+
+#login-bar .input-icon-container i {
+    position: absolute;
+    top: 23px;
+    left: 38.5%;
+    color: var(--color-text);
+}
+
+#login-bar .input-icon-container input,
+#login-bar button {
+    width: 25%;
+    height: 2.6rem;
+
+    font: 400 1.0rem Archivo;
+
+    background: var(--color-background-primary);
+    color: var(--color-text);
+    border-radius: 25px;
+    border: 2px solid var(--color-text);
+    text-decoration: none;
+
+    outline: 0;
+    margin: 0.6rem;
+}
+
+#login-bar .input-icon-container input {
+    padding: 0 0.6rem 0 2.0rem;
+}
+
+
+#login-bar button {
+    width: 50%;
+    background-color: white;
+    color: #3b3b3b;
+    cursor: pointer;
+}
+
+#login-bar button:hover {
+    background-color: var(--color-text);
+}
+
+#login-bar a,#login-bar p {
+    font: 400 0.8rem Archivo;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+#login-bar p {
+    margin-top: 90px;
+}
